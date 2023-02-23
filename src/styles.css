@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  gap: 20px;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.page-selector {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  gap: 5px;
+}
+
+.character-list-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.character-list-container > p {
+  cursor: pointer;
+}
+
+.page-button {
+  border: solid 1px gray;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.page-button-selected {
+  background-color: gray;
+  color: white;
+  font-weight: bold;
+}
+
+.data-container {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.character-properties {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.foldable-list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
